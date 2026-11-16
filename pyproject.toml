@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greet-community"
+description = "A tiny greeting package"
+authors = [{ name = "shjh1005" }]
+version = "0.1.0"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
